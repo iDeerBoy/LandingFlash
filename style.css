@@ -1,0 +1,323 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #2E2E2E;
+}
+
+body{
+    width: 1066px;
+    margin: 0 auto;
+}
+
+.parte-inicial{
+    width: 100%;
+    height: 369px;
+    padding: 28px 126px  0 118px;
+    background-image: url(./img/fondo-header-alternativo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(0 0, 1066px 0, 1066px 250px, 0 369px);
+}
+
+.nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lessins{
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    color: white;
+}
+
+.nav ul{
+    list-style: none;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav ul li{
+    margin: 0 35px;
+    color: white;
+}
+
+.nav a{
+    font-size: 18px;
+    line-height: 21px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    background-color:  rgba(255, 255, 255, 0.42);
+    border-radius: 45px;
+}
+
+.nav a:hover{
+    background-color: white;
+    color: purple;
+}
+
+.banner-conteiner{
+    transform: translateY(-310px);
+    margin-bottom: -310px;
+}
+
+.banner{
+    z-index: 10;    
+    width: 100%;
+    padding: 0 126px  0 118px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+}
+
+.txt-banner h1{
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 70px;
+    margin-bottom: 28px;
+}
+
+.txt-banner p{
+    width: 400px;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    margin-bottom: 23px;
+}
+
+.txt-banner span{
+    font-weight: 700;
+}
+
+.txt-banner a{
+    font-size: 18px;
+    line-height: 21px;
+    color: white;
+    text-decoration: none;
+    background-color: rgba(14, 14, 14, 0.78);
+    padding: 10px 25px;
+    border-radius: 45px;
+    display: inline-block;
+    border: 2px solid rgba(14, 14, 14, 0);
+}
+
+.txt-banner a:hover{
+    background-color: white;    
+    color: rgba(14, 14, 14, 0.78);
+    border: 2px solid rgba(14, 14, 14, 0.78);
+}
+
+.txt-banner h4{
+    display: inline;
+    margin-left: 29px;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.txt-banner i{
+    font-size: 18px;
+}
+
+.img-banner{
+    width: 230px;
+}
+
+.img-banner img{
+    width: 100%;
+}
+
+.marcas{
+    width: 100%;
+    padding: 0 126px  0 118px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.img-marcas{
+    width: 15%;
+    margin: 10px 5%;
+}
+
+.img-marcas img{
+    width: 100%;
+}
+
+.parte-dos{
+    width: 100%;
+    position: relative;
+    margin-bottom: 68px;
+}
+
+.parte-dostxt{
+    width: 100%;
+    background-color: #274B70;
+    padding: 204px 0 184px 115px;
+    position: relative;    
+    clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+}
+
+.parte-dostxt h2{
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: -0.02em;
+    color: #f9f9f9;
+    width: 503px;
+    margin-bottom: 32px;
+}
+
+
+.parte-dostxt p{
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.02em;
+    color: #f9f9f9;
+    width: 400px;
+    margin-bottom: 35px;
+}
+
+.parte-dostxt a{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #f9f9f9;
+    padding: 8px 20px;
+    border-radius: 45px;
+    background-color: rgba(18, 212, 255, 0.78);
+    text-decoration: none;
+}
+
+.parte-dos a:hover{
+    color: #f9f9f9;
+    background-color:  rgba(18, 212, 255, 0.4);
+}
+
+.parte-dostxt a i{
+    font-size: 18px;
+    color: #f9f9f9;
+    margin-left: 12px;
+}
+
+.telefono2{
+    width: 176px;
+    position: absolute;
+    right: 126px;
+    bottom: 50px;
+    z-index: 10;
+}
+
+.telefono2 img{
+    width: 100%;
+}
+
+.parte-tres{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 76px;
+}
+
+.img-partetres{
+    width: 50%;
+    height: 259px;
+    background-size: cover;
+}
+
+.img1{
+    background-image: url(/img/50325_4_2019_2_CollaborativeClassrom_FINAL_2-1024x683.jpg);
+}
+
+.img2{
+    background-image: url(/img/unnamed.jpg);
+}
+
+.img3{
+    background-image: url(/img/Why-Learning-a-New-Language-is-the-Key-to-Success-850x390.jpg);
+}
+
+.img4{
+    background-image: url(/img/bigstock-Senior-Students-Using-Computer-103754882_600x.jpg);
+}
+
+.parte-cuatro{
+    width: 100%;
+    text-align: center;
+    color: #111111;
+    margin-bottom: 110px;
+}
+
+.parte-cuatro h2{
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 53px;
+}
+
+.parte-cuatro ul{
+    width: 85%;
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.parte-cuatro ul li{
+    width: 190px;
+}
+
+.parte-cuatro ul li img{
+    width: 80px;
+    margin-bottom: 19px;
+}
+
+.parte-cuatro ul li h4{
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 16px;
+}
+
+.parte-cuatro ul li p{
+    font-size: 18px;
+    line-height: 21px;
+    text-align: left;
+}
+
+.parte-cuatro ul li p span{
+    color: #2FDF84;
+    font-weight: 500;
+}
+
+.footer{
+    width: 100%;
+    margin-bottom: 102px;
+    text-align: center;
+}
+
+.footer h4{
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    color: #656565;
+}
+
+.footer div{
+    width: 239px;
+    height: 25px;
+    margin: 0 auto;
+    background-color: #2FDF84;
+    margin-bottom: 10px;
+}
+
+.footer p{
+    font-size: 14px;
+    line-height: 16px;
+    color: #ABABAB;
+}
